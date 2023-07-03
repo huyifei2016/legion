@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="child1">
+    <listeners>
+        <listener class-name="listener.MyReporterListener"></listener>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"></listener>
+         <listener class-name="listener.RetryListener"></listener>
+    </listeners>
+
+  <test name="Test">
+    <groups>
+      <run>
+   <!--   <include name="group1"></include>  -->
+      <!--  <include name="smoke"></include>-->
+    <!--  <include name="smoke"></include>-->
+      </run>
+    </groups>
+
+      <!--<packages>-->
+          <!--<package name="testscript.*"></package>-->
+      <!--</packages>-->
+      <packages>
+          <package name="apiscript.*"></package>
+      </packages>
+      <!--<classes>-->
+          <!--<class name="apiscript.Category"></class>-->
+
+      <!--</classes>-->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

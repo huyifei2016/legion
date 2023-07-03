@@ -1,0 +1,35 @@
+
+ # Created by .ignore support plugin (hsz.mobi)
+  ### Java template
+  *.class
+
+  # Mobile Tools for Java (J2ME)
+  .mtj.tmp/
+  .logs/*
+  **/*.iml
+  # Package Files #
+  *.jar
+  *.war
+  *.ear
+  target
+.idea/
+.gradle
+.allure
+gradle/wrapper/
+allure-results/
+test-output/
+tmp/
+out
+gen
+/**/build
+/**/classes
+/**/logs
+*.iml
+  .DS_Store
+  exports
+  # virtual machine crash logs, see                 
+  hs_err_pid*
+  .tags
+  .tags_sorted_by_file 
+gradlew
+gradlew.bat
